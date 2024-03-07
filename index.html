@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function alertfun() {
+            alert("Submitted Successfully");
+        }
+    </script>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <style>
+        .userinputbox {
+            background-color: lightgray;
+            width: 500px;
+            padding: 20px;
+            border: 3px solid;
+            border-radius: 20px;
+            margin: 0 auto;
+        }
+        
+        .userinputbox label,
+        .userinputbox input {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <section class="section1">
+        <div class="userinputbox">
+            <div align="center">
+                <font size="6" color="black"><b> <u>DATA ENTRY</u> </b></font>
+                <br>
+                <br>
+                <font size="5"><u>PROJECT FUNDAMENTALS</u></font>
+            </div>
+            <font face=" Verdana " align="left " size="3 " color="black ">
+                <form method="post" action="login.php">
+                    <br>
+                    <br>
+                    <label for="name">Name : </label>
+                    <input type="textbox " id="name " class="name " placeholder="name " />
+                    <label for="age">Age : </label>
+                    <input type="number" id="age " class="age " placeholder="age " />
+                    <label for="bg">Blood Group : </label>
+                    <input type="textbox" id="bg " class="bg " placeholder="blood group ">
+                    <label for="phonenumber"> Phone Number : </label>
+                    <input type="number" id="phonenumber " class="phonenumber " placeholder="phone number ">
+                    <label for="email">E-Mail : </label>
+                    <input type="textbox " id="email " class="email " placeholder="e-mail ">
+                </form>
+                <div align="center">
+                    <input type="button" onclick="alertfun() " value="Submit" name="loginbtn">
+                </div>
+            </font>
+        </div>
+    </section>
+</body>
+
+</html>
